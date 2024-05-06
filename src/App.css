@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;top: 0px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: blue;
+    
+}
+.nav-list li{
+    list-style: none;
+}
+.khan{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+.khan:hover{
+    color: #a29797;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+input{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 1vh;
+}
+.bdn{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.bdn:hover{
+    background-color: blue;
+    color: #fff;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+i{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+.list2{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 6px 6px 12px grey;
+    margin-top: 2vw;
+}
+#color{
+    color: red;
+    font-size: 3vw;
+    cursor: pointer;
+}
+#color:hover{
+    transform: rotate(360deg);
+    transition: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.rm{
+    margin-top: 2vw;
+}
+h5{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+    width: 25vw;
+    height: 25vw;
+}
+.visit{
+    color: red;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.change{
+    background-color: yellow;
+}
+.change:hover{
+    color: darkblue;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change2{
+    background-color: blueviolet;
+    color: #fff;
+}
+.change2:hover{
+    color: greenyellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change3{
+    background-color: darkred;
+    color: #fff;
+}
+.change3:hover{
+    color: darkorange;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change4{
+    background-color: dodgerblue;
+    color: #fff;
+}
+.change4:hover{
+    color: lightsalmon;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change5{
+    background-color: mediumorchid;
+    color: #fff;
+}
+.change5:hover{
+    color: orange;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change6{
+    background-color: olive;
+}
+.change6:hover{
+    color: yellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change7{
+    background-color: aqua;
+}
+.change7:hover{
+    color: red;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change8{
+    background-color: lightslategray;
+    color: #fff;
+}
+.change8:hover{
+    color: navy;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change9{
+    background-color: mediumorchid;
+}
+.change9:hover{
+    color: turquoise;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change10{
+    background-color: firebrick;
+    color: #fff;
+}
+.change10:hover{
+    color: navajowhite;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change11{
+    background-color: purple;
+}
+.change11:hover{
+    color: darkcyan;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.change12{
+    background-color: limegreen;
+}
+.change12:hover{
+    color: #fff;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.item{
+    text-align: center;
+    margin-top: 6vw;
+    background-color: rgb(194, 201, 207);
+}
+.try{
+    width: 40vw;
+    height: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-btn{
+    width: 25vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.google{
+    background-color: orangered;
+    color: #fff;
+}
+.google:hover{
+   background-color: rgb(190, 72, 29);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.facebook{
+    background-color: blue;
+    color: #fff;
+}
+.facebook:hover{
+    background-color: rgb(24, 24, 131);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.twitter{
+    background-color: black;
+    color: #fff;
+}
+.twitter:hover{
+    background-color: rgb(77, 74, 74);
+}
+.fa-brands{
+    padding: 1vw;
+}
